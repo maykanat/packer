@@ -3,6 +3,7 @@ node('worker1'){
         checkout scm 
         sh '''
             ls -l
+            echo "Hello Bro!"
         '''
     }
 }
